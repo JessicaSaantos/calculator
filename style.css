@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+}
+body{
+    
+}
+.container{
+    background: rgb(47,40,62);
+    background: radial-gradient(circle, rgba(47,40,62,1) 0%, rgba(28,255,242,1) 0%, rgba(47,40,62,1) 100%);
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+}
+.calculator{
+    display: table;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+.calculator table tr td{
+    background-color: white;
+    padding: 14px 20px;
+    margin-left: 10px;
+    color: black;
+}
+    
