@@ -6,22 +6,30 @@
     color: wheat;
 }
 body{
-    
-}
-.container{
     background: rgb(47,40,62);
     background: radial-gradient(circle, rgba(47,40,62,1) 0%, rgba(28,255,242,1) 0%, rgba(47,40,62,1) 100%);
-    width: 1000px;
+ 
     height: 100vh;
-    margin: 0 auto;
 }
 .calculator{
-    display: table;
-    width: 500px;
-    height: 300px;
     position: absolute;
-    top: 25%;
-    left: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*centralizando conteúdo por completo*/
+    background-color: black;
+    padding: 16px;
+    border-radius: 25px;
+    text-align: center;
+}
+#resultado {
+    width: 271px;
+    height: 40px;
+    background-color: white;
+    border: none;
+}
+.calculator table {
+    width: 275px;
+    height: 330px;
 }
 .calculator table tr td{
     background-color: white;
