@@ -28,6 +28,10 @@ body{
     border: none;
     margin-bottom: 8px;
     border-radius: 5px;
+    color: black;
+    text-align: right;
+    font-size: 28px;
+    padding: 4px;
 }
 .calculator table {
     width: 275px;
